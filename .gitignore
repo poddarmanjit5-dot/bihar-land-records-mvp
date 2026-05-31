@@ -1,0 +1,67 @@
+# Dependencies
+node_modules/
+*.pnp
+.pnp.js
+package-lock.json
+yarn.lock
+
+# Testing
+coverage/
+.nyc_output/
+
+# Production
+dist/
+build/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+pgdata/
+
+# GIS data (large files)
+gis/shapefiles/**/*.shp
+gis/shapefiles/**/*.shx
+gis/shapefiles/**/*.dbf
+gis/shapefiles/**/*.prj
+!gis/shapefiles/.gitkeep
+
+# Build artifacts
+*.tsbuildinfo
+
+# OS
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Docker
+.dockerignore
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# Node version manager
+.nvmrc
